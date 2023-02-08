@@ -1,0 +1,32 @@
+.contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.contact h3:nth-child(1) {
+    color: #7b7554;
+    font-family: 'Courier New', sans-serif;
+}
+
+.contact-me {
+    margin: 2rem 0;
+    font-size: 3rem;
+}
+
+.little-desc{
+    width: 50%;
+    margin-bottom: 2.5rem;
+
+    text-align: center;
+    line-height: 1.7rem;
+}
+.form-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #292f36;
+  font-family: "Roboto", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #9e9897;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1700px) {
+  .email {
+    left: 88rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 1600px) {
+  .email {
+    left: 80rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .email {
+    left: 75rem;
+  }
+
+  .accounts {
+    left: 4rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .accounts {
+    left: 3rem;
+  }
+
+  .email {
+    left: 70rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .accounts {
+    left: 1rem;
+  }
+
+  .email {
+    left: 66rem;
+  }
+}
+
+@media (max-width: 1270px) {
+  .main {
+    max-width: 800px;
+  }
+
+  .info h1 {
+    font-size: 3.4rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main {
+    max-width: 700px;
+  }
+
+  .email {
+    left: 60rem;
+  }
+
+  .info h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .email {
+    left: 55rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .email,
+  .accounts {
+    display: none;
+  }
+
+  .box-links {
+    display: none;
+  }
+
+  .navbar {
+    color: #7B7554;;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .info {
+    margin: auto;
+    width: 90%;
+  }
+
+  .projects{
+    padding:0 1.2rem;
+  }
+
+  .contact{
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .info > .discover-me {
+    margin: auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .description-projects {
+    margin-left: 1.2rem;
   }
 }

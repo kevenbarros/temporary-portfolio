@@ -1,0 +1,70 @@
+.box-project {
+  margin-top: 3rem;
+  margin: .75rem .75rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.3rem;
+  max-width: 20rem;
+  background-color: #353b41;
+  transition: 0.3s ;
+  position: relative;
+  top: 0;
+}
+
+.box-project:hover {
+    transition: 0.3s;
+    top: -5px;
+    cursor: pointer;
+}
+
+.header-project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 2.5rem;
+}
+
+.folder-icon {
+  font-size: 2.5rem;
+}
+
+.github-icon {
+  transition: 0.3s;
+}
+
+.github-link {
+  color: #9e9897;
+}
+
+.github-link:hover {
+  color: #7b7554;
+  cursor: pointer;
+}
+
+.github-icon {
+  font-size: 1.5rem;
+}
+
+.context-project {
+  margin-bottom: 2.7rem;
+}
+
+.title-project {
+  margin-bottom: 1rem;
+}
+
+.footer-techs {
+  display: flex;
+  position: relative;
+  bottom: 0px;
+}
+
+.tech-name {
+  color: #7b7554;
+  font-size: 0.95rem;
+
+  margin-right: 1rem;
+}

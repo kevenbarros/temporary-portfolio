@@ -1,0 +1,51 @@
+
+.about {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about {
+    margin-bottom: 5rem ;
+}
+
+.description {
+    margin-bottom: 1.80rem;
+    width: 100%;
+}
+
+.last-job-link-a {
+    text-decoration: none;
+    color: #7b7554;
+
+    transition: 1s;
+}
+
+.last-job-link-a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.technologies-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.technologies-li {
+    display: flex;
+    width: 30%;
+    margin-right: 20%;
+    align-items: center;
+    color: #9e9897;
+}
+
+.technologies-li-icon{
+    color: #7b7554;
+    margin-right: .3rem;
+}
+@media (max-width: 1270px) {
+    #about {
+        padding:0 1.2rem;
+    }
+  }

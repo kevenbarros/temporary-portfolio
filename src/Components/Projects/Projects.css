@@ -1,0 +1,21 @@
+#projects{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem !important;
+    margin-bottom: 5rem;
+}
+
+.title-projects {
+    margin-bottom: 1.5rem;
+}
+
+.description-projects {
+    margin-bottom: 1rem;
+}
+
+.projects-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
