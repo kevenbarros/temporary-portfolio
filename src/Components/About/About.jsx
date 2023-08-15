@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="main about" id="about">
       <h1>
-        About me <hr />
+        Sobre mim <hr />
       </h1>
       <p className="description">
         Olá! Meu nome é Keven e gosto de criar coisas para internet.
@@ -23,6 +23,16 @@ const About = () => {
           rel="noreferrer"
         >Hurst capital</a>
         , no qual pude aprender mais sobre as tecnologias que utilizo hoje, como React js, Vue js, Next js, Typescript e ferramenta de versionamento como Git.
+      </p>
+
+      <p className="description">
+        Também trabalhei 1 ano como desenvolvedor fullstack na empresa <a
+          href="https://www.drclick.com.br"
+          className="last-job-link-a"
+          target="_blank"
+          rel="noreferrer"
+        >Dr Click</a>
+        , no qual pude aprender mais sobre as tecnologias back-end, como Node js em relação ao banco utilizei MySql, também pude aprender bastante sobre gerência e padrões de projetos.
       </p>
 
       <p className="description">

@@ -13,7 +13,7 @@ const Content = () => {
         <div className="info">
           <h3>Olá meu nome é</h3>
           <h1>Keven William.</h1>
-          <h1>Eu construo boas aplicações web.</h1>
+          <h1>Desenvenvolvedor de software como foco em front-end.</h1>
           <div className="description">
             <p>
               Sou um desenvolvedor de software procurando um emprego na posição júnior. Estou

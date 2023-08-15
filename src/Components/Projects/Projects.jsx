@@ -5,7 +5,7 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div className="main projects" id="projects">
-      <h1 className="title-projects">Projects</h1>
+      <h1 className="title-projects">Projetos</h1>
 
       <p className="description-projects">
         Aqui estão alguns projetos com os quais tenho trabalhado recentemente:
