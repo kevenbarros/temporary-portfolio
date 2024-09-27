@@ -12,6 +12,14 @@ const Projects = () => {
       </p>
 
       <div className="projects-group">
+      <Project
+          link={"https://github.com/kevenbarros/automotive-service-api"}
+          title={"Api de serviço automotivo"}
+          description={
+            "Este projeto é uma API para o gerenciamento de serviços automotivos, desenvolvido com Node.js e TypeScript. Ele permite o cadastro, consulta, atualização e remoção de clientes, veículos e serviços automotivos."
+          }
+          technologies={["MongoDB","Node", "Typescript", "Express"]}
+        />
         <Project
           link={"https://github.com/kevenbarros/url-shortener"}
           title={"Encurtador de url"}
@@ -51,14 +59,6 @@ const Projects = () => {
             "Um projeto em python de busca e armazenamento de cnpj, no qual pude trabalhar com consumo de apis e CRUD em SQLite"
           }
           technologies={["Python ", "SQLite"]}
-        />
-        <Project
-          link={"https://github.com/kevenbarros/Games"}
-          title={"Games"}
-          description={
-            "Um Repositorio com 3 jogos classicos, como Flappy Bird, Pong e um jogo autoral de batalha espacial, todos feitos apenas com javascript, html e css."
-          }
-          technologies={["Javascript", "Html", "Css"]}
         />
       </div>
     </div>

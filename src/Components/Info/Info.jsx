@@ -16,9 +16,9 @@ const Content = () => {
           <h1>Desenvenvolvedor de software como foco em front-end.</h1>
           <div className="description">
             <p>
-              Sou um desenvolvedor de software procurando um emprego na posição júnior. Estou
+              Sou um desenvolvedor de software pleno. Estou
               atualmente focado em aprender mais sobre tecnologias web como
-              Typescript, React js  e Vue js.
+              Typescript, React js, Vue js e Angular.
             </p>
           </div>
           <Button className='discover-me' link={"#about"} > Descubra</Button>

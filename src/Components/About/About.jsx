@@ -10,33 +10,74 @@ const About = () => {
         Sobre mim <hr />
       </h1>
       <p className="description">
-        Olá! Meu nome é Keven e gosto de criar coisas para internet.
-        Meu interesse por desenvolvimento web começou em 2018 quando decidi entrar nesse mundo — primeiro comecei a
-        aprender sobre html e css para criar rapidamente lindas páginas estáticas e sentir que estava fazendo algo legal!
+        Olá! Meu nome é Keven e gosto de criar coisas para internet. Meu
+        interesse por desenvolvimento web começou em 2018 quando decidi entrar
+        nesse mundo — primeiro comecei a aprender sobre html e css para criar
+        rapidamente lindas páginas estáticas e sentir que estava fazendo algo
+        legal!
       </p>
 
       <p className="description">
-        Quanto à experiência profissional, já trabalhei 1 ano como desenvolvedor front-end na empresa  <a
+        Quanto à experiência profissional, já trabalhei 1 ano como desenvolvedor
+        front-end na empresa{" "}
+        <a
           href="https://hurst.capital"
           className="last-job-link-a"
           target="_blank"
           rel="noreferrer"
-        >Hurst capital</a>
-        , no qual pude aprender mais sobre as tecnologias que utilizo hoje, como React js, Vue js, Next js, Typescript e ferramenta de versionamento como Git.
+        >
+          Hurst capital
+        </a>
+        , desenvolvi páginas e funcionalidades com foco na experiência do
+        usuário, utilizando Vue.js, React.js e Next.js. Atuei na criação de
+        interfaces interativas e responsivas, sempre visando otimizar a
+        usabilidade e a performance das aplicações.
       </p>
 
       <p className="description">
-        Também trabalhei 1 ano como desenvolvedor fullstack na empresa <a
+        Também trabalhei 1 ano como desenvolvedor fullstack na empresa{" "}
+        <a
           href="https://www.drclick.com.br"
           className="last-job-link-a"
           target="_blank"
           rel="noreferrer"
-        >Dr Click</a>
-        , no qual pude aprender mais sobre as tecnologias back-end, como Node js em relação ao banco utilizei MySql, também pude aprender bastante sobre gerência e padrões de projetos.
+        >
+          Dr Click
+        </a>
+        , Desenvolvi um sistema abrangente com módulos de agendamentos,
+        prontuários médicos, gestão financeira, agendamentos online, combos e
+        convênios. Destaco meu papel crucial no desenvolvimento autônomo do
+        módulo de convênios, integrando-se com diversos convênios, gerando XML e
+        facilitando a gestão de guias. Contribuí para o projeto de um totem de
+        senhas em Electra.js, assim como no desenvolvimento do agendamento
+        online usando Next.js e do sistema principal com React.js e Vue.js.
+        Minha experiência demonstra não apenas habilidades técnicas, mas também
+        a capacidade de liderar projetos inovadores na área de tecnologia da
+        informação em saúde.
       </p>
 
       <p className="description">
-        Aqui estão algumas tecnologias com as quais tenho trabalhado recentemente:
+        Hoje trabalho na empresa{" "}
+        <a
+          href="https://encibra.com.br/"
+          className="last-job-link-a"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Encibra
+        </a>
+        , atuo como desenvolvedor front-end no projeto de uma plataforma de
+        vistoria de saneamento de água e esgoto para o governo de Alagoas.
+        Minhas principais responsabilidades incluíam o desenvolvimento de
+        páginas de formulários e relatórios, além de trabalhar com mapas
+        interativos e gráficos para visualização de dados. Utilizei tecnologias
+        como GraphQL, REST API e Next.js para criar interfaces eficientes e
+        dinâmicas.
+      </p>
+
+      <p className="description">
+        Aqui estão algumas tecnologias com as quais tenho trabalhado
+        recentemente:
       </p>
       <ul className="technologies-ul">
         <li className="technologies-li">
@@ -70,6 +111,14 @@ const About = () => {
         <li className="technologies-li">
           <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />
           Html/Css/Sass
+        </li>
+        <li className="technologies-li">
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />
+          GraphQl
+        </li>
+        <li className="technologies-li">
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />
+          Storybook
         </li>
       </ul>
     </div>
